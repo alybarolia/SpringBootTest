@@ -34,7 +34,7 @@ public class BuddyInfo {
     public int getPhNumber() {
         return phNumber;
     }
-f
+
     public String getName() {
         return name;
     }
