@@ -1,12 +1,14 @@
 package com.example.demo;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
 public class BuddyInfo {
 
     @Id
+    @GeneratedValue
     private int id;
     private int phNumber;
     private String name;
@@ -32,7 +34,7 @@ public class BuddyInfo {
     public int getPhNumber() {
         return phNumber;
     }
-
+f
     public String getName() {
         return name;
     }
