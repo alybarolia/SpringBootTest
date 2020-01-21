@@ -14,19 +14,18 @@ public class BuddyInfo {
     private String name;
     private String address;
 
-
     public BuddyInfo() {
         this.name = "Aly Khan";
         this.phNumber = 647;
         this.address = "TBD";
-
     }
 
     public BuddyInfo(String name, int phNumber, String address) {
         this.name = name;
         this.phNumber = phNumber;
-        this.address= address;
+        this.address = address;
     }
+
     public String getAddress() {
         return address;
     }
